@@ -1,0 +1,162 @@
+/* About us  */
+.about-us {
+    padding: 30px;
+    width: 100%;
+    height: 70vh;
+    background: #ffffff;
+}
+.boule {
+    position: absolute;
+    left: 700px;
+    top: 310px;
+}
+.top-flesh {
+    position: absolute;
+    left: 0px;
+    top: 137.96px;
+}
+.courbe {
+    position: absolute;
+    top: 50%;
+    left: -1%;
+}
+.vector {
+    position: absolute;
+    top: 60%;
+    left: 0;
+}
+.bottom-flesh {
+    position: absolute;
+    top: 82%;
+    left: 0px;
+}
+.about-us-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 45px;
+    color: #2e3d5e;
+    margin-bottom: 5px;
+}
+.about-us-desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #2e3d5e;
+    margin-top: 25px;
+}
+
+/* .team-work {
+    width: 80%;
+    height: 76px;
+    padding: 10px;
+} */
+
+#inspire, #create, #support, .space {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 55px;
+    text-align: center;
+    color: #2e3d5e;
+}
+
+
+/* Team */
+.team {
+    width: 100%;
+    height: inherit;
+}
+.team-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 43px;
+    line-height: 55px;
+    color: #2e3d5e;
+}
+
+.team-desc {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+    color: #2e3d5e;
+}
+
+.team-headers {
+    max-width: 1383px;
+}
+
+.team-headers ul {
+    list-style: none;
+}
+
+.team-headers li {
+    margin: 0 auto;
+}
+.team-headers a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 55px;
+
+    text-align: center;
+    color: #2e3d5e;
+}
+
+.team-headers a:hover {
+    text-decoration: none;
+    border-bottom: 5px solid #0C9FB3;
+    padding: 5px;
+}
+.team-img {
+    height: 40vh;
+}
+
+.team-card {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 20px;
+}
+
+.team-member-name, .team-member-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 33px;
+
+    text-transform: uppercase;
+    text-align: center;
+    color: #2e3d5e;
+}
+.team-member-title {
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+
+/* Contact */
+.contact-us {
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    left: 0px;
+    top: inherit;
+    background: #D8E9F3;   
+}
+
+footer {
+    background: #2e3d5e;
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    left: 0px;
+    top: 2788px;
+}
