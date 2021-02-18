@@ -15,7 +15,7 @@ nav {
     position: absolute;
     width: 466px;
     height: 168px;
-    left: 823px;
+    right: 0%;
     top: 303px;
 
     font-family: 'Montserrat';
@@ -30,24 +30,271 @@ nav {
 
 .home-btn {
     position: absolute;
-    left: 823px;
-    top: 490px;
+    left: 70%;
+    top: 500px;
 }
 
 .courbe {
     position: absolute;
     width: 1000px;
     height: 1000px;
-    left: 500px;
+    right: 0%;
     top: -26.97px;
     transform: rotate(21deg);
 }
+
 .eclipse {
     position: absolute;
     width: 1094px;
     height: 293px;
-    left: 980px;
-    top: 500px;
+    right: -590px;
+    top: 540px;
+    animation: eclipse1 5s infinite;
+}
+
+.eclipse img {
+    width: 200px;
+    animation: eclipse 5s infinite;
+}
+
+.rectangle {
+    position: absolute;
+    left: 255.16px;
+    top: 238.16px;
+}
+.lines {
+    position: absolute;
+    left: 310px;
+    top: 273px;
+}
+
+.rectangle1 {
+    position: absolute;
+    left: 509px;
+    top: 148px;
+    z-index: 1;
+    animation: top-rect 5s infinite;
+}
+
+.rectangle2 {
+    position: absolute;
+    left: 459.65px;
+    top: 170px;
+}
+
+.rectangle3 {
+    position: absolute;
+    left: 187px;
+    top: 579px;
+}
+
+.small-rectangles {
+    position: absolute;
+    left: 158px;
+    top: 588px;
+    animation: small-rect 5s infinite;
+}
+
+.ellipses {
+    position: absolute;
+    left: 100px;
+    top: 388px;
+}
+
+.ellipse1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    animation: ellipse1 5s infinite;
+}
+
+.ellipse2 {
+    position: absolute;
+    left: 610px;
+    top: -90px;
+    animation: ellipse2 5s infinite;
+}
+
+@keyframes top-rect {
+    0% {
+        left: 509px;
+        top: 148px;
+    }
+
+    50% {
+        left: 470px;
+        top: 188px;
+    }
+}
+
+@keyframes small-rect {
+    0% {
+        left: 158px;
+        top: 588px;
+    }
+
+    50% {
+        left: 240px;
+        top: 600px;
+    }
+}
+
+@keyframes ellipse1 {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        left: 100px;
+        top: -100px;
+    }
+}
+
+@keyframes ellipse2 {
+    0% {
+        left: 610px;
+        top: -90px;
+    }
+
+    50% {
+        left: 700px;
+        top: -200px;
+    }
+
+}
+
+@keyframes eclipse{
+    0% {
+       width: 200px;;
+    }
+    50% {
+        width: 300px;
+    }
+} 
+
+@keyframes eclipse1 {
+    0% {
+        right: -590px;
+        top: 540px;
+    }
+
+    50% {
+        right: -535px;
+        top: 490px;
+    }
 }
 
 
+/* Medium devices (tablets) */
+@media (min-width:768px) and (max-width: 991.98px){
+
+    .desc h3 {
+        position: absolute;
+        width: 446px;
+        font-weight: 600;
+        font-size: 40px;
+    }
+
+    .home-btn {
+        left: 55%;
+    }
+
+    .rectangle {
+        position: absolute;
+        left: 10%;
+        top: 350px;
+    
+    }
+    .rectangle img {
+        height: 450px;
+    }
+
+    .lines {
+        position: absolute;
+        left: 14.5%;
+        top: 395px;
+    }
+
+    .lines img {
+        height: 300px;
+    }
+    
+    .rectangle1 {
+        position: absolute;
+        left: 32.8%;
+        top: 280px;
+        z-index: 1;
+        animation: top-rect 5s infinite;
+    }
+
+    .rectangle1 img {
+        height: 150px;
+    }
+    
+    .rectangle2 {
+        position: absolute;
+        left: 32%;
+        top: 270px;
+    }
+
+    .rectangle2 img {
+        height: 180px;
+    }
+    
+    .rectangle3 {
+        position: absolute;
+        left: 4%;
+        top: 610px;
+        
+    }
+
+    .rectangle3 img {
+        height: 200px;
+    }
+    
+    .small-rectangles {
+        position: absolute;
+        left: 8%;
+        top: 630px;
+        animation: small-rect 5s infinite;
+    }
+
+    .small-rectangles img {
+        height: 110px;
+    }
+
+    @keyframes top-rect {
+        0% {
+            left: 32.8%;
+            top: 280px;
+        }
+    
+        50% {
+            left: 470px;
+            top: 188px;
+        }
+    }
+    
+    @keyframes small-rect {
+        0% {
+            left: 8%;
+            top: 630px;
+        }
+    
+        50% {
+            left: 1%;
+            top: 630px;
+        }
+    }
+}
+
+/* Small devices (tablets) */
+/* @media (min-width: 576px) and (max-width: 767.98px){
+
+} */
+
+/* Small device(phone portrait) */
+/* @media (max-width: 575.98px){
+    
+} */ 

@@ -1,3 +1,7 @@
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -8,22 +12,25 @@ nav {
     background-color: white;
     min-height: 10vh;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
 }
 
-#custom-navbar-list {
+/* #custom-navbar-list {
     position: relative;
     right: 5%;
     width: 50%;
-}
+} */
+
 .nav-item {
     padding: 0 10px;
 }
 #get-in-touch-btn {
     background-color:#0C9FB3;
     color: white;
-    border-radius: 27.64px;
+    border-radius: 27px;
     font-weight: bold;
-    font-size: 14.0377px;
+    font-size: 14px;
+    max-width: 160px;
 }
 .nav-link{
     text-transform: uppercase;
@@ -440,7 +447,7 @@ footer {
     width: 100%;
     height: 350px;
     left: 0px;
-    top: 4166px;
+    top: 3266px;
 }
 
 .footer-title {
@@ -513,3 +520,911 @@ footer a:hover {
 
     background: #151D2F;
 }
+
+/* Media Queries */
+
+/* Large devices(desktop)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+} */
+
+/* Medium devices (tablets) */
+@media (min-width:768px) and (max-width: 991.98px){
+
+body {
+    overflow-x: hidden;
+}
+    /* SERVICES */
+section.services {
+    position: absolute;
+    width: 100%;
+    height: 900px;
+    left: 0px;
+    top: 70px;
+}
+.services-desc {
+    position: relative;
+    top: 70px;
+    align-items: center;
+}
+
+.service-title {
+    width: 100%;
+    height: 49px;
+    position: absolute;
+    left: 54px;
+    font-size: 33px;
+    top: 0px;
+ 
+}
+
+.services-desc p {
+    position: relative; 
+    top: 30%;
+    font-size: 24px;
+}
+
+.service-btn {
+    top: 120%;
+}
+
+.services-cards {
+    position: relative;
+    top: 200px;
+    left: 60px;
+}
+
+.custom-services-card {
+    width: 268px;
+    height: 200px;
+}
+
+
+h3.message {
+    font-size: 20px;
+}
+
+/* Process */
+.process {
+    position: absolute;
+    max-width: 991.98px;
+    top: 970px;
+    
+    height: 1400px;
+    background-color: #2e3d5e;
+}
+
+.courbe-bg{
+    position: absolute;
+    left: 0px;
+    top: 300px;
+}
+
+.courbe-bg img {
+    width: 750px;
+}
+
+.zigzag {
+    position: absolute;
+    left: 0px;
+}
+
+.zigzag img{
+    width: 750px;
+}
+
+.planning {
+    position: absolute;
+    left: 87px;
+    top: 480px;
+}
+
+.analysis {
+    position: absolute;
+    left: 507px;
+    top: 480px;
+}
+
+.development {
+    position: absolute;
+    left: 87px;
+    top: 700px;
+}
+
+.design {
+    position: absolute;
+    left: 537px;
+    top: 700px;
+}
+
+.testing {
+    position: absolute;
+    left: 87px;
+    top: 900px;
+}
+
+.support {
+    position: absolute;
+    left: 507px;
+    top: 900px;
+}
+
+.vector-cloud {
+    position: absolute;
+    top: 65%;
+    right: -1%;
+}
+
+.process-desc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 405px;
+    height: 277px;
+    left: 92px;
+    top: 50px;
+}
+
+.process-title {
+    font-size: 43px;
+    line-height: 55px;
+}
+
+.process-desc {
+    top: 99px;
+    font-size: 20px;
+    line-height: 33px;
+
+}
+
+.eclipse-bg {
+    position: absolute;
+    top: 90px;
+    left: 590px;
+    width: 150px;
+}
+
+
+/* Vision & Mission */
+.vision-mission {
+    position: absolute;
+    max-width: 100%;
+    height: 466px;
+    top: 2370px;
+}
+
+.vision-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+}
+
+.mission,.vision,.values {
+    width: 215px;
+}
+
+.vision-title, .mission-title, .values-title {
+    height: 4px;
+    font-size: 20px;
+    margin: 30px 0px;
+}
+
+.vision-desc, .mission-desc, .values-desc {
+    font-size: 20px;
+    line-height: 32px;
+    margin: 30px 0px;
+}
+
+
+/* CONTACT */
+.contact-us {
+    position: absolute;
+    max-width: 991.98px;
+    top: 2836px; 
+}
+
+.group1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.group2 {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.group3 {
+    display: none;
+}
+
+.group4 {
+   display: none;
+}
+
+.polygon {
+   display: none;
+}
+
+.contact-container {
+    position: absolute;
+    max-width: 100%;
+    height: 70%;
+    left: 5px;
+    top: 140px;
+}
+
+.contact-card {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 60px;
+    top: 47px;
+}
+
+.contact-title {
+    max-width: 160px;
+    transform: translateX(150%);
+    font-size: 18px;
+    line-height: 25px;
+    
+    letter-spacing: 0.01em;
+    color: #0C9FB3;
+}
+
+.underline-contact-title {
+    max-width: 160px;
+    transform: translateX(150%);
+}
+
+.contact-card p:nth-child(3) {
+    font-size: 14px;
+    text-align: start;
+}
+
+.contact-card p:nth-child(4) {
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.address-text, .email-text, .phone-text {
+    font-size: 14px;
+    line-height: 12px;
+}
+
+
+/* FOOTER */
+footer {
+    top: 2836px;
+}
+
+.footer-title {
+    font-size: 16px;
+}
+
+.reach-out-footer p {
+    line-height: 22px;
+}
+
+.footer-btn {
+    height: 30px;
+    font-size: 13px;
+}
+
+}
+
+
+/* Small devices (tablets) */
+@media (min-width: 576px) and (max-width: 767.98px){
+
+    body {
+        overflow-x: hidden;
+    }
+        /* SERVICES */
+    section.services {
+        position: absolute;
+        width: 100%;
+        height: 900px;
+        left: 0px;
+        top: 70px;
+    }
+    .services-desc {
+        position: relative;
+        top: 60px;
+        align-items: center;
+    }
+    
+    .service-title {
+        height: 30px;
+        position: relative;
+        font-size: 25px;
+        top: 0px;
+        left: 0px;
+        text-align: start;
+    }
+    
+    .services-desc p {
+        position: relative; 
+        top: 5%;
+        font-size: 18px;
+    }
+    
+    .service-btn {
+        top: 80%;
+    }
+    
+    .services-cards {
+        position: relative;
+        top: 100px;
+        left: 20%;
+    }
+    
+    .custom-services-card {
+        width: 180px;
+        height: 200px;
+    }
+    
+    
+    h3.message {
+        font-size: 18px;
+    }
+    
+    /* Process */
+    .process {
+        position: absolute;
+        max-width: 767.98px;
+        top: 970px;
+        height: 1000px;
+    }
+    
+    .courbe-bg{
+        position: absolute;
+        left: 0px;
+        top: 300px;
+    }
+    
+    .courbe-bg img {
+        width: 500px;
+    }
+    
+    .zigzag {
+        left: 3%;
+        top: 360px;
+    }
+    
+    .zigzag img{
+        width: 550px;
+    }
+    
+    .planning {
+        position: absolute;
+        left: 87px;
+        top: 400px;
+    }
+
+    .planning img {
+        width: 100px;
+    }
+    
+    .analysis {
+        position: absolute;
+        left: 380px;
+        top: 400px;
+    }
+
+    .analysis img {
+        width: 100px;
+    }
+    
+    .development {
+        position: absolute;
+        left: 87px;
+        top: 540px;
+    }
+
+    .development img {
+        width: 150px;
+        height: 70px;
+    }
+    
+    .design {
+        position: absolute;
+        left: 390px;
+        top: 540px;
+    }
+
+    .design img {
+        width: 100px;
+    }
+    
+    .testing {
+        position: absolute;
+        left: 87px;
+        top: 690px;
+    }
+
+    .testing img {
+        width: 100px;
+    }
+    
+    .support {
+        position: absolute;
+        left: 390px;
+        top: 690px;
+    }
+
+    .support img {
+        width: 100px;
+    }
+    
+    .vector-cloud {
+        position: absolute;
+        top: 55%;
+        right: 0%;
+    }
+
+    .vector-cloud img {
+        height: 450px;
+    }
+    
+    .process-desc-container {
+        left: 70px;
+    }
+    
+    .process-title {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    
+    .process-desc {
+        top: 69px;
+        font-size: 18px;
+        line-height: 33px;
+    
+    }
+    
+    .eclipse-bg {
+        top: 90px;
+        left: 80%;
+        width: 100px;
+    }
+    
+    
+    /* Vision & Mission */
+    .vision-mission {
+        position: absolute;
+        max-width: 100%;
+        height: 466px;
+        top: 1970px;
+    }
+    
+    .vision-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0px;
+    }
+    
+    .mission,.vision,.values {
+        width: 150px;
+    }
+    
+    .vision-title, .mission-title, .values-title {
+        height: 2px;
+        font-size: 14px;
+    }
+    
+    .vision-desc, .mission-desc, .values-desc {
+        font-size: 14px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
+    
+    
+    /* CONTACT */
+    .contact-us {
+        position: absolute;
+        max-width: 767.98px;
+        top: 2436px; 
+    }
+
+    .group1 img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .group2 {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+    }
+
+    .group2 img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .group3 {
+        display: none;
+    }
+    
+    .group4 {
+       display: none;
+    }
+    
+    .polygon {
+       display: none;
+    }
+    
+    .contact-container {
+        position: absolute;
+        max-width: 90%;
+        height: 75%;
+        left: 0px;
+        margin-left: 7%;
+        top: 100px;
+    }
+    
+    .contact-card {
+        position: absolute;
+        max-width: 80%;
+        height: 100%;
+        left: 60px;
+        top: 47px;
+    }
+    
+    .contact-title {
+        max-width: 80px;
+        transform: translateX(150%);
+        font-size: 14px;
+        line-height: 10px;
+    }
+    
+    .underline-contact-title {
+        max-width: 80px;
+        transform: translateX(150%);
+    }
+    
+    .contact-card p:nth-child(3) {
+        font-size: 14px;
+        text-align: start;
+        width: 80%;
+    }
+    
+    .contact-card p:nth-child(4) {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .address-text, .email-text, .phone-text {
+        font-size: 14px;
+        line-height: 12px;
+    }
+    .map {
+        display: none;
+    }
+    
+    /* FOOTER */
+    footer {
+        top: 2436px;
+        height: 80%;
+    }
+   
+    
+    }
+
+/* Small device(phone portrait) */
+@media (max-width: 575.98px){
+
+    body {
+        overflow-x: hidden;
+    }
+        /* SERVICES */
+    section.services {
+        position: absolute;
+        width: 100%;
+        height: 1350px;
+        left: 0px;
+        top: 70px;
+    }
+    .services-desc {
+        position: relative;
+        top: 60px;
+        align-items: start;
+    }
+    
+    .service-title {
+        height: 30px;
+        position: relative;
+        font-size: 25px;
+        top: 0px;
+        left: 0px;
+        text-align: start;
+    }
+    
+    .services-desc p {
+        position: relative; 
+        top: 5%;
+        font-size: 16px;
+    }
+    
+    .service-btn {
+        top: 80%;
+    }
+    
+    .services-cards {
+        position: relative;
+        top: 100px;
+        left: 20%;
+    }
+    
+    .custom-services-card {
+        width: 280px;
+        height: 200px;
+    }
+    
+    
+    h3.message {
+        font-size: 18px;
+    }
+    
+    /* Process */
+    .process {
+        position: absolute;
+        max-width: 575.98px;
+        top: 1400px;
+        height: 800px;
+    }
+    
+    .courbe-bg{
+        position: absolute;
+        left: 0px;
+        top: 300px;
+    }
+    
+    .courbe-bg img {
+        width: 370px;
+    }
+    
+    .zigzag {
+        left: 0%;
+        top: 360px;
+    }
+    
+    .zigzag img{
+        width: 450px;
+    }
+    
+    .planning {
+        position: absolute;
+        left: 87px;
+        top: 380px;
+    }
+
+    .planning img {
+        width: 100px;
+    }
+    
+    .analysis {
+        position: absolute;
+        left: 300px;
+        top: 380px;
+    }
+
+    .analysis img {
+        width: 100px;
+    }
+    
+    .development {
+        position: absolute;
+        left: 57px;
+        top: 510px;
+    }
+
+    .development img {
+        width: 150px;
+        height: 70px;
+    }
+    
+    .design {
+        position: absolute;
+        left: 300px;
+        top: 510px;
+    }
+
+    .design img {
+        width: 100px;
+    }
+    
+    .testing {
+        position: absolute;
+        left: 57px;
+        top: 620px;
+    }
+
+    .testing img {
+        width: 100px;
+    }
+    
+    .support {
+        position: absolute;
+        left: 300px;
+        top: 620px;
+    }
+
+    .support img {
+        width: 100px;
+    }
+    
+    .vector-cloud {
+        display: none;
+    }
+    
+    .process-desc-container {
+        left: 70px;
+    }
+    
+    .process-title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    
+    .process-desc {
+        top: 69px;
+        font-size: 16px;
+        line-height: 33px;
+    
+    }
+    
+    .eclipse-bg {
+       display: none
+    }
+    
+    
+    /* Vision & Mission */
+    .vision-mission {
+        position: absolute;
+        max-width: 100%;
+        height: auto;
+        top: 2200px;
+    }
+    
+    .vision-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 0px;
+    }
+    
+    .mission,.vision,.values {
+        width: 150px;
+    }
+    
+    .vision-title, .mission-title, .values-title {
+        height: 2px;
+        font-size: 14px;
+    }
+    
+    .vision-desc, .mission-desc, .values-desc {
+        font-size: 14px;
+        line-height: 32px;
+        margin: 10px 0px;
+    }
+    
+    
+    /* CONTACT */
+    .contact-us {
+        position: absolute;
+        max-width: 575.98px;
+        top: 3086px; 
+        height: 100%;
+    }
+
+    .group1 img {
+        width: 100px;
+        height: 100px;
+        display: none;
+    }
+    
+    .group2 {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        display: none;
+    }
+    
+    .group3 {
+        display: none;
+    }
+    
+    .group4 {
+       display: none;
+    }
+    
+    .polygon {
+       display: none;
+    }
+    
+    .contact-container {
+        position: absolute;
+        max-width: 90%;
+        height: 90%;
+        left: 0px;
+        margin-left: 7%;
+        top: 20px;
+    }
+    
+    .contact-card {
+        position: absolute;
+        max-width: 80%;
+        height: 100%;
+        left: 60px;
+        top: 47px;
+    }
+    
+    .contact-title {
+        max-width: 120px;
+        transform: translateX(80%);
+        font-size: 18px;
+        line-height: 10px;
+    }
+    
+    .underline-contact-title {
+        max-width: 120px;
+        transform: translateX(80%);
+    }
+    
+    .contact-card p:nth-child(3) {
+        font-size: 14px;
+        text-align: start;
+        width: 80%;
+    }
+    
+    .contact-card p:nth-child(4) {
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .address-text, .email-text, .phone-text {
+        font-size: 14px;
+        line-height: 12px;
+    }
+    .map {
+        display: none;
+    }
+    
+    /* FOOTER */
+    footer {
+        top: 3086px;
+        height: 120%;
+        text-align: center;
+    }
+    
+    .footer-title {
+        font-size: 14px;
+        font-weight: bold;
+    }
+    
+    .reach-out-footer p {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+    }
+    
+    .footer-btn {
+        height: 30px;
+        font-size: 13px;
+        margin: auto;
+    }
+    
+    }
+
+
